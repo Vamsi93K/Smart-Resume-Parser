@@ -254,6 +254,7 @@ def main():
         accept_multiple_files=True,
         help=f"Upload up to {max_files} PDF or DOCX files"
     )
+# this resume analyser is useful for companies to check the candidates performance
     
     if uploaded_files:
         if len(uploaded_files) > max_files:
